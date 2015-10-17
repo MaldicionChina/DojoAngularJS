@@ -11,6 +11,7 @@ var spinnerBankAngularApp = angular.module('spinnerBankAngularApp', [
         templateUrl: '../../pages/Principal.html',
         controller: 'prodControler'
       })
+<<<<<<< HEAD
       .when('/productos',{
         templateUrl: '../../pages/Producto.html',
         controller: 'prodControler'
@@ -19,3 +20,8 @@ var spinnerBankAngularApp = angular.module('spinnerBankAngularApp', [
         redirectTo: '/'
       });
   });
+=======
+      .otherwise({
+        redirectTo: '/'
+      });
+>>>>>>> master
